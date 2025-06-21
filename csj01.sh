@@ -10,12 +10,8 @@ set -euo pipefail
 IFS=$'\n\t'
 
 finish() {
-  local ret=$?
-  if [ ${ret} -ne 0 ] && [ ${ret} -ne 130 ]; then
-    echo
-    echo "ERROR: XFCE on Termux 설치를 실패하였습니다."
-    echo "위 error message(s)를 참고하세요."
-  fi
+  clear
+  exit 0
 }
 
 trap finish EXIT

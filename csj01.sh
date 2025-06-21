@@ -60,7 +60,7 @@ wget https://github.com/yanghoeg/Termux_XFCE/raw/main/temp_background.sh
 chmod +x *.sh
 
 ./xfce.sh "$username"
-./etc.sh
+./termux_setup_script.sh
 ./proot.sh "$username"
 ./utils.sh
 ./temp_background.sh
@@ -108,5 +108,5 @@ echo ""
 rm xfce.sh
 rm proot.sh
 rm utils.sh
-rm etc.sh
+rm termux_setup_script.sh
 rm install.sh

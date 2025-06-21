@@ -39,7 +39,7 @@ echo "Termux 저장소 접근 허용."
 # Wait for a single character input 
 echo ""
 read -n 1 -s -r -p "아무키나 누르세요..."
-termux-setup-storage
+#termux-setup-storage
 
 pkgs=('wget' 'ncurses-utils' 'dbus' 'proot-distro' 'x11-repo' 'tur-repo' 'pulseaudio')
 

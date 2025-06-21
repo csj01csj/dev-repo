@@ -17,7 +17,7 @@ termux_base_setup()
     sleep 1
     echo -e "${UYELLOW}Termux 저장소 접근을 위해 'termux-setup-storage'를 먼저 실행해 주세요.${WHITE}"
     read -p "완료 후 엔터를 눌러 주세요..."
-    termux-setup-storage
+    #termux-setup-storage
 
     echo -e "${GREEN}termux 업데이트 && 업그레이드${WHITE}"
     pkg update -y && pkg upgrade -y

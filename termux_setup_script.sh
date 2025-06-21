@@ -122,18 +122,6 @@ env DISPLAY=:1.0 MESA_LOADER_DRIVER_OVERRIDE=kgsl TU_DEBUG=noconform dbus-launch
     chmod +x $PREFIX/bin/startXFCE
 }
 
-termux_gpu_accel_install()
-{
-    set -e
-    sleep 1
-    echo -e "${GREEN}mesa ${WHITE}"
-    pkg install -y mesa mesa-demos mesa-dev
-
-    sleep 1
-    echo -e "${GREEN}mesa-vulkan-icd-freedreno-dri3 설치 - Adreno GPU 용 Vulkan API ${WHITE}"
-    pkg install -y mesa-vulkan-icd-freedreno-dri3
-}
-
 termux_gpu_accel_dev_install(){
     sleep 1
     echo -e "${GREEN}clvk 설치 - OpenCL을 Vulkan으로 매핑하는 계층(library)입니다.${WHITE}"
@@ -173,16 +161,6 @@ termux_gpu_accel_dev_install(){
 }
 
 termux_base_setup
-
-echo -e "${UYELLOW}gpu 가속(mesa-zink, mesa-vulkan-icd-freedreno-dri3)을 설치하겠습니까?(y/n)${WHITE}"
-read yn
-case $yn in
-    y ) echo -e "${GREEN}gpu 가속을 설치합니다.${WHITE}"
-        termux_gpu_accel_install
-        ;;
-    * ) echo -e "${GREEN}설치를 하지 않습니다.${WHITE}"
-        ;;
-esac
 
 echo -e "${UYELLOW}gpu 가속 dev 관련(clvk 등)을 설치하겠습니까?(y/n)${WHITE}"
 read yn

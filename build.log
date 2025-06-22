@@ -1,0 +1,1129 @@
+termux - building mesa for arch aarch64...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+termux-elf-cleaner is already the newest version (3.0.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Building dependency libc++ if necessary...
+libc++@27c installed - skipping
+Building dependency libandroid-shmem if necessary...
+libandroid-shmem@0.5 installed - skipping
+Building dependency libdrm if necessary...
+libdrm@2.4.124 built - skipping (rm /data/data/com.termux/files/home/.termux-build/.built-packages/libdrm to force rebuild)
+Building dependency libandroid-support if necessary...
+libandroid-support@29 installed - skipping
+Building dependency xorg-util-macros if necessary...
+xorg-util-macros@1.20.2 built - skipping (rm /data/data/com.termux/files/home/.termux-build/.built-packages/xorg-util-macros to force rebuild)
+Building dependency xorgproto if necessary...
+xorgproto@2024.1 built - skipping (rm /data/data/com.termux/files/home/.termux-build/.built-packages/xorgproto to force rebuild)
+Building dependency libxau if necessary...
+libxau@1.0.12 installed - skipping
+Building dependency libxdmcp if necessary...
+libxdmcp@1.1.5 installed - skipping
+Building dependency xcb-proto if necessary...
+xcb-proto@1.17.0-1 built - skipping (rm /data/data/com.termux/files/home/.termux-build/.built-packages/xcb-proto to force rebuild)
+Building dependency libxcb if necessary...
+libxcb@1.17.0 installed - skipping
+Building dependency xtrans if necessary...
+xtrans@1.6.0 built - skipping (rm /data/data/com.termux/files/home/.termux-build/.built-packages/xtrans to force rebuild)
+Building dependency libx11 if necessary...
+libx11@1.8.12 installed - skipping
+Building dependency libxext if necessary...
+libxext@1.3.6 installed - skipping
+Building dependency libglvnd if necessary...
+libglvnd@1.7.0 installed - skipping
+Building dependency zlib if necessary...
+zlib@1.3.1 installed - skipping
+Building dependency liblzma if necessary...
+liblzma@5.8.1 installed - skipping
+Building dependency zstd if necessary...
+zstd@1.5.7 installed - skipping
+Building dependency binutils-libs if necessary...
+termux - building binutils-libs for arch aarch64...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+termux-elf-cleaner is already the newest version (3.0.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Downloading binutils-libs@2.44 source from 'https://ftp.gnu.org/gnu/binutils/binutils-with-gold-2.44.tar.xz' if necessary...
+Applying patch: no-hardlink.patch.beforehostbuild
+checking build system type... aarch64-unknown-linux-android
+checking host system type... aarch64-unknown-linux-android
+checking target system type... aarch64-unknown-linux-android
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether ln works... no, using cp
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /data/data/com.termux/files/usr/bin/sed
+checking for gawk... gawk
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for gcc option to accept ISO C99... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking whether g++ accepts -static-libstdc++ -static-libgcc... no
+checking for gnatbind... no
+checking for gnatmake... no
+checking whether compiler driver understands Ada and is recent enough... no
+checking for gdc... no
+checking whether the D compiler works... no
+checking for cargo... no
+checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
+checking for objdir... .libs
+checking for isl 0.15 or later... no
+required isl version is 0.15 or later
+checking whether to enable libdiagnostics... no
+checking for library containing dlopen... none required
+checking for library containing pthread_create... none required
+*** This configuration is not supported in the following subdirectories:
+     zlib
+    (Any other directories should still work fine.)
+checking for default BUILD_CONFIG... 
+checking for --enable-vtable-verify... no
+checking for bison... bison -y
+checking for bison... bison
+checking for gm4... no
+checking for gnum4... no
+checking for m4... m4
+checking for flex... flex
+checking for flex... flex
+checking for makeinfo... no
+/data/data/com.termux/files/home/.termux-build/binutils-libs/src/missing: 81: makeinfo: not found
+checking for expect... no
+checking for runtest... no
+checking for ar... no
+checking for as... no
+checking for dlltool... no
+checking for dsymutil... dsymutil
+checking for ld... no
+checking for lipo... no
+checking for nm... no
+checking for ranlib... no
+checking for strip... no
+checking for windres... no
+checking for windmc... no
+checking for objcopy... no
+checking for objdump... no
+checking for otool... no
+checking for readelf... no
+checking for -plugin option... checking for ar... ar
+/data/data/com.termux/files/home/.termux-build/binutils-libs/src/configure: 14222: ar: not found
+configure: WARNING: Failed: ar  rc
+no
+checking for aarch64-linux-android-cc... no
+checking for cc... cc
+checking for aarch64-linux-android-c++... no
+checking for c++... c++
+checking for aarch64-linux-android-gcc... aarch64-linux-android-gcc
+checking for aarch64-linux-android-gfortran... no
+checking for gfortran... no
+checking for aarch64-linux-android-gccgo... no
+checking for gccgo... no
+checking for aarch64-linux-android-gdc... no
+checking for gdc... no
+checking for aarch64-linux-android-gm2... no
+checking for gm2... no
+checking for aarch64-linux-android-ar... no
+checking for ar... no
+checking for aarch64-linux-android-as... no
+checking for as... no
+checking for aarch64-linux-android-dlltool... no
+checking for dlltool... no
+checking for aarch64-linux-android-dsymutil... no
+checking for dsymutil... dsymutil
+checking for aarch64-linux-android-ld... no
+checking for ld... no
+checking for aarch64-linux-android-lipo... no
+checking for lipo... no
+checking for aarch64-linux-android-nm... no
+checking for nm... no
+checking for aarch64-linux-android-objcopy... no
+checking for objcopy... no
+checking for aarch64-linux-android-objdump... no
+checking for objdump... no
+checking for aarch64-linux-android-otool... no
+checking for otool... no
+checking for aarch64-linux-android-ranlib... no
+checking for ranlib... no
+checking for aarch64-linux-android-readelf... no
+checking for readelf... no
+checking for aarch64-linux-android-strip... no
+checking for strip... no
+checking for aarch64-linux-android-windres... no
+checking for windres... no
+checking for aarch64-linux-android-windmc... no
+checking for windmc... no
+checking where to find the target ar... just compiled
+checking where to find the target as... just compiled
+checking where to find the target cc... host tool
+checking where to find the target c++... host tool
+checking where to find the target c++ for libstdc++... host tool
+checking where to find the target dlltool... just compiled
+checking where to find the target dsymutil... host tool
+checking where to find the target gcc... host tool
+checking where to find the target gfortran... host tool
+checking where to find the target gccgo... host tool
+checking where to find the target gdc... host tool
+checking where to find the target gm2... host tool
+checking where to find the target ld... just compiled
+checking where to find the target lipo... host tool
+checking where to find the target nm... just compiled
+checking where to find the target objcopy... just compiled
+checking where to find the target objdump... just compiled
+checking where to find the target otool... host tool
+checking where to find the target ranlib... just compiled
+checking where to find the target readelf... just compiled
+checking where to find the target strip... just compiled
+checking where to find the target windres... just compiled
+checking where to find the target windmc... just compiled
+checking whether to enable maintainer-specific portions of Makefiles... no
+configure: creating ./config.status
+config.status: creating Makefile
+make[1]: Entering directory '/data/data/com.termux/files/home/.termux-build/binutils-libs/host-build'
+make[1]: Nothing to be done for 'all-target'.
+mkdir -p -- ./libsframe
+mkdir -p -- ./binutils
+mkdir -p -- ./gas
+mkdir -p -- ./libiberty
+mkdir -p -- ./ld
+mkdir -p -- ./gprof
+mkdir -p -- ./etc
+Configuring in ./ld
+Configuring in ./binutils
+Configuring in ./libsframe
+Configuring in ./gas
+Configuring in ./libiberty
+Configuring in ./gprof
+Configuring in ./etc
+configure: creating cache ./config.cache
+checking build system type... configure: creating cache ./config.cache
+aarch64-unknown-linux-android
+checking host system type... configure: creating cache ./config.cache
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for makeinfo... /data/data/com.termux/files/home/.termux-build/binutils-libs/src/missing makeinfo --split-size=5000000
+configure: WARNING:
+*** Makeinfo is missing. Info documentation will not be built.
+checking for perl... perl
+checking build system type... checking build system type... configure: creating cache ./config.cache
+configure: creating cache ./config.cache
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether build environment is sane... aarch64-unknown-linux-android
+checking target system type... aarch64-unknown-linux-android
+checking host system type... aarch64-unknown-linux-android
+checking host system type... yes
+configure: creating cache ./config.cache
+aarch64-unknown-linux-android
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether build environment is sane... checking build system type... aarch64-unknown-linux-android
+checking for aarch64-unknown-linux-android-ar... ar 
+checking for aarch64-unknown-linux-android-ranlib... true 
+checking for -plugin option... checking build system type... yes
+aarch64-unknown-linux-android
+checking target system type... aarch64-unknown-linux-android
+checking host system type... configure: creating cache ./config.cache
+aarch64-unknown-linux-android
+checking host system type... checking for a thread-safe mkdir -p... /data/data/com.termux/files/usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... aarch64-unknown-linux-android
+checking for aarch64-unknown-linux-android-gcc... aarch64-unknown-linux-android
+gcc
+checking target system type... aarch64-unknown-linux-android
+checking target system type... checking build system type... checking for a thread-safe mkdir -p... /data/data/com.termux/files/usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... aarch64-unknown-linux-android
+checking host system type... yes
+aarch64-unknown-linux-android
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether build environment is sane... aarch64-unknown-linux-android
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether build environment is sane... aarch64-unknown-linux-android
+checking target system type... yes
+checking whether make supports nested variables... yes
+yes
+yes
+aarch64-unknown-linux-android
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether build environment is sane... checking whether make supports nested variables... checking for a thread-safe mkdir -p... yes
+checking for a thread-safe mkdir -p... /data/data/com.termux/files/usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+/data/data/com.termux/files/usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking whether make supports nested variables... (cached) yes
+checking for a thread-safe mkdir -p... checking whether make supports nested variables... (cached) yes
+checking for aarch64-unknown-linux-android-gcc... gcc
+yes
+yes
+/data/data/com.termux/files/usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking whether make supports nested variables... configure: updating cache ./config.cache
+checking whether make supports nested variables... yes
+yes
+yes
+checking that generated files are newer than configure... checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for aarch64-unknown-linux-android-gcc... gcc
+checking whether make supports nested variables... (cached) yes
+checking for aarch64-unknown-linux-android-gcc... gcc
+checking whether make supports nested variables... (cached) yes
+checking for aarch64-unknown-linux-android-gcc... gcc
+checking for aarch64-unknown-linux-android-ar... (cached) ar 
+checking whether the C compiler works... /data/data/com.termux/files/home/.termux-build/binutils-libs/src/libiberty/configure: 3061: ar: not found
+configure: WARNING: Failed: ar   rc
+no
+checking whether to install libiberty headers and static library... no
+configure: target_header_dir = 
+checking for aarch64-unknown-linux-android-gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... checking whether the C compiler works... checking whether the C compiler works... checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... checking whether the C compiler works... 
+checking whether we are cross compiling... no
+checking for suffix of object files... 
+
+checking whether we are cross compiling... checking whether we are cross compiling... 
+checking whether we are cross compiling... o
+checking whether we are using the GNU C compiler... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... no
+checking for suffix of object files... yes
+checking whether gcc accepts -g... no
+no
+o
+checking whether we are using the GNU C compiler... checking for suffix of object files... checking for suffix of object files... no
+checking for suffix of object files... yes
+checking for gcc option to accept ISO C89... 
+checking whether we are cross compiling... yes
+checking whether gcc accepts -g... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... none needed
+checking whether gcc understands -c and -o together... done
+configure: creating ./config.status
+yes
+checking whether gcc accepts -g... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... yes
+checking whether gcc accepts -g... yes
+checking how to run the C preprocessor... yes
+checking for gcc option to accept ISO C89... no
+yes
+checking for gcc option to accept ISO C89... yes
+checking for gcc option to accept ISO C89... checking for suffix of object files... none needed
+checking whether gcc understands -c and -o together... o
+checking whether we are using the GNU C compiler... none needed
+checking whether gcc understands -c and -o together... none needed
+checking whether gcc understands -c and -o together... none needed
+checking whether gcc understands -c and -o together... gcc -E
+yes
+checking whether gcc accepts -g... yes
+checking for style of include used by make... GNU
+yes
+checking dependency style of gcc... checking for style of include used by make... yes
+checking for gcc option to accept ISO C89... yes
+GNU
+checking for style of include used by make... yes
+checking dependency style of gcc... checking for style of include used by make... GNU
+GNU
+checking dependency style of gcc... checking dependency style of gcc... checking for grep that handles long lines and -e... /data/data/com.termux/files/usr/bin/grep
+checking for egrep... /data/data/com.termux/files/usr/bin/grep -E
+checking for ANSI C header files... none needed
+checking how to run the C preprocessor... gcc3
+checking how to run the C preprocessor... gcc3
+checking how to run the C preprocessor... config.status: creating Makefile
+gcc3
+gcc3
+checking how to run the C preprocessor... gcc -E
+gcc -E
+gcc -E
+gcc -E
+make[2]: Entering directory '/data/data/com.termux/files/home/.termux-build/binutils-libs/host-build/etc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/data/data/com.termux/files/home/.termux-build/binutils-libs/host-build/etc'
+checking for grep that handles long lines and -e... /data/data/com.termux/files/usr/bin/grep
+checking for egrep... /data/data/com.termux/files/usr/bin/grep -E
+checking for ANSI C header files... checking for grep that handles long lines and -e... checking whether we are using the GNU C++ compiler... /data/data/com.termux/files/usr/bin/grep
+checking for egrep... /data/data/com.termux/files/usr/bin/grep -E
+checking for ANSI C header files... checking for grep that handles long lines and -e... /data/data/com.termux/files/usr/bin/grep
+checking for egrep... /data/data/com.termux/files/usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for grep that handles long lines and -e... yes
+checking whether g++ accepts -g... /data/data/com.termux/files/usr/bin/grep
+checking for egrep... checking for sys/types.h... /data/data/com.termux/files/usr/bin/grep -E
+checking for ANSI C header files... yes
+yes
+checking dependency style of g++... checking for sys/stat.h... yes
+checking for stdlib.h... gcc3
+checking for grep that handles long lines and -e... /data/data/com.termux/files/usr/bin/grep
+checking how to run the C preprocessor... yes
+yes
+checking for sys/types.h... checking for string.h... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+gcc -E
+yes
+checking for sys/stat.h... yes
+yes
+checking for memory.h... checking for sys/types.h... checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+yes
+yes
+checking for stdlib.h... yes
+checking for strings.h... checking for sys/stat.h... checking for egrep... /data/data/com.termux/files/usr/bin/grep -E
+checking for ANSI C header files... checking for stdlib.h... yes
+checking for stdlib.h... yes
+yes
+yes
+checking for string.h... checking for inttypes.h... yes
+checking for stdlib.h... yes
+checking for string.h... checking for string.h... yes
+checking for memory.h... yes
+yes
+yes
+yes
+checking for string.h... checking for stdint.h... checking for memory.h... checking for memory.h... yes
+checking for strings.h... yes
+yes
+yes
+checking for unistd.h... yes
+checking for memory.h... checking for strings.h... checking for strings.h... yes
+checking for inttypes.h... yes
+yes
+checking for sys/types.h... yes
+yes
+checking minix/config.h usability... yes
+checking for strings.h... checking for inttypes.h... yes
+checking for inttypes.h... checking for stdint.h... yes
+checking for sys/stat.h... yes
+yes
+no
+checking minix/config.h presence... yes
+checking for stdint.h... checking for inttypes.h... yes
+checking for stdint.h... checking for unistd.h... yes
+no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... checking for stdlib.h... yes
+yes
+checking for stdint.h... checking for unistd.h... yes
+yes
+checking for unistd.h... checking minix/config.h usability... yes
+yes
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking whether build environment is sane... yes
+checking for string.h... yes
+yes
+checking for a thread-safe mkdir -p... /data/data/com.termux/files/usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking minix/config.h usability... checking for unistd.h... yes
+checking minix/config.h usability... yes
+no
+checking minix/config.h presence... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... checking for memory.h... yes
+yes
+no
+checking minix/config.h presence... checking minix/config.h usability... checking dependency style of gcc... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... no
+checking minix/config.h presence... yes
+no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... checking for strings.h... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... gcc3
+yes
+yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /data/data/com.termux/files/usr/bin/sed
+checking whether make supports nested variables... (cached) yes
+checking whether make sets $(MAKE)... checking for fgrep... no
+(cached) yes
+checking for aarch64-unknown-linux-android-gcc... (cached) gcc
+/data/data/com.termux/files/usr/bin/grep -F
+checking for ld used by gcc... checking for inttypes.h... checking whether gcc supports -W... yes
+checking whether byte ordering is bigendian... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... ld
+checking if the linker (ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... yes
+yes
+checking whether gcc supports -Wall... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... checking for stdint.h... /data/data/com.termux/files/usr/bin/sed
+checking for fgrep... /data/data/com.termux/files/usr/bin/grep -F
+checking for ld used by gcc... no
+checking for aarch64-unknown-linux-android-dumpbin... no
+checking for aarch64-unknown-linux-android-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... yes
+ld
+checking whether gcc supports -Wwrite-strings... checking if the linker (ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... yes
+checking for unistd.h... checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking for aarch64-unknown-linux-android-ranlib... true 
+checking for aarch64-unknown-linux-android-ar... ar 
+checking the archiver (ar ) interface... yes
+BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... checking whether gcc supports -Wc++-compat... 512
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... no
+no
+checking for aarch64-unknown-linux-android-dumpbin... no
+checking for aarch64-unknown-linux-android-link... no
+checking for dumpbin... no
+checking for link... link -dump
+no
+checking how to print strings... checking for ld option to reload object files... -r
+checking for aarch64-unknown-linux-android-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+printf
+checking for a sed that does not truncate output... checking the name lister (nm) interface... yes
+/data/data/com.termux/files/usr/bin/sed
+checking for fgrep... checking minix/config.h usability... /data/data/com.termux/files/usr/bin/grep -F
+checking for ld used by gcc... unknown
+configure: error: could not determine ar  interface
+yes
+checking whether gcc supports -Wstrict-prototypes... ld
+checking if the linker (ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... make[1]: *** [Makefile:11638: configure-libsframe] Error 1
+make[1]: *** Waiting for unfinished jobs....
+no
+checking minix/config.h presence... 512
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... no
+yes
+checking for ld option to reload object files... -r
+checking for aarch64-unknown-linux-android-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking whether gcc supports -Wshadow=local... no
+checking for aarch64-unknown-linux-android-dumpbin... no
+checking for aarch64-unknown-linux-android-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether gcc supports -pedantic ... checking for aarch64-unknown-linux-android-ar... ar 
+checking for aarch64-unknown-linux-android-strip... no
+checking for strip... no
+checking for aarch64-unknown-linux-android-ranlib... true 
+checking command to parse nm output from gcc object... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... yes
+checking for aarch64-unknown-linux-android-pkg-config... no
+checking for pkg-config... /data/data/com.termux/files/usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... 512
+checking whether the shell understands some XSI constructs... /data/data/com.termux/files/usr/bin/sed
+yes
+checking whether the shell understands "+="... no
+checking for fgrep... /data/data/com.termux/files/usr/bin/grep -F
+checking for ld used by gcc... checking for ld option to reload object files... -r
+checking for aarch64-unknown-linux-android-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+yes
+checking whether gcc and cc understand -c and -o together... ld
+checking if the linker (ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... checking for aarch64-unknown-linux-android-ar... ar 
+checking for aarch64-unknown-linux-android-strip... no
+checking for strip... no
+checking for aarch64-unknown-linux-android-ranlib... true 
+checking command to parse nm output from gcc object... failed
+checking for dlfcn.h... no
+checking for aarch64-unknown-linux-android-dumpbin... no
+checking for aarch64-unknown-linux-android-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... yes
+checking for objdir... .libs
+BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 512
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... no
+failed
+checking for dlfcn.h... checking for ld option to reload object files... -r
+checking for aarch64-unknown-linux-android-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for aarch64-unknown-linux-android-ar... ar 
+checking for aarch64-unknown-linux-android-strip... no
+checking for strip... no
+checking for aarch64-unknown-linux-android-ranlib... true 
+checking command to parse nm output from gcc object... yes
+checking for an ANSI C-conforming const... yes
+checking for objdir... .libs
+yes
+checking for inline... checking if gcc supports -fno-rtti -fno-exceptions... failed
+checking for dlfcn.h... inline
+checking whether byte ordering is bigendian... yes
+checking for objdir... checking for aarch64-unknown-linux-android-ar... ar 
+checking for aarch64-unknown-linux-android-strip... no
+checking for strip... no
+checking for aarch64-unknown-linux-android-ranlib... true 
+checking command to parse nm output from gcc object... yes
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking if gcc static flag -static works... yes
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... failed
+checking for dlfcn.h... no
+checking for a BSD-compatible install... /data/data/com.termux/files/usr/bin/install -c
+checking for CET support... no
+checking target system type... aarch64-unknown-linux-android
+checking for sys/file.h... yes
+checking if gcc static flag -static works... yes
+no
+checking if gcc supports -c -o file.o... checking for objdir... checking if gcc supports -fno-rtti -fno-exceptions... .libs
+yes
+checking for sys/param.h... yes
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (ld) supports shared libraries... no
+checking dynamic linker characteristics... checking for limits.h... yes
+checking if gcc static flag -static works... yes
+checking for stdlib.h... (cached) yes
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (ld) supports shared libraries... no
+checking dynamic linker characteristics... checking for malloc.h... no
+checking if gcc supports -c -o file.o... yes
+yes
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for strings.h... (cached) yes
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... checking for sys/time.h... yes
+checking if gcc static flag -static works... no
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for dlfcn.h... (cached) yes
+checking for windows.h... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (ld) supports shared libraries... no
+checking dynamic linker characteristics... yes
+checking for time.h... no
+checking for library containing dlsym... GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for dlfcn.h... (cached) yes
+no
+checking if gcc supports -c -o file.o... checking for windows.h... yes
+checking for sys/resource.h... yes
+no
+checking for library containing dlsym... checking for sys/stat.h... (cached) yes
+yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (ld) supports shared libraries... no
+checking dynamic linker characteristics... none required
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... checking for sys/mman.h... GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for dlfcn.h... (cached) yes
+checking for windows.h... no
+checking sys/time.h usability... yes
+checking for fcntl.h... no
+checking for library containing dlsym... none required
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... yes
+checking sys/time.h presence... yes
+yes
+checking for sys/time.h... yes
+no
+checking for alloca.h... checking for setitimer... checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
+yes
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... checking for sys/pstat.h... no
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+none required
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... checking how to run the C++ preprocessor... no
+no
+yes
+checking for sys/sysmp.h... checking whether NLS is requested... no
+checking for msgfmt... no
+checking for gmsgfmt... :
+checking for aarch64-unknown-linux-android-pkg-config... no
+checking for pkg-config... /data/data/com.termux/files/usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether to use debuginfod... auto
+checking for libdebuginfod >= 0.188... checking for xgettext... no
+no
+configure: WARNING: libdebuginfod is missing or some features may be unavailable.
+checking for libdebuginfod >= 0.179... checking for msgmerge... no
+checking for ld used by GCC... no
+configure: WARNING: libdebuginfod is missing or unusable; some features may be unavailable.
+no
+checking for sys/sysinfo.h... ld
+checking if the linker (ld) is GNU ld... g++ -E
+no
+checking for shared library run path origin... yes
+Setting warning flags = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow
+checking whether byte ordering is bigendian... done
+checking for machine/hal_sysinfo.h... checking for CFPreferencesCopyAppValue... no
+checking for sys/table.h... no
+checking for CFLocaleCopyPreferredLanguages... no
+checking for sys/sysctl.h... Setting warning flags = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow
+checking for bison... bison -y
+checking for flex... flex
+checking lex output file root... lex.yy
+checking whether yytext is a pointer... no
+no
+checking for sys/systemcfg.h... no
+checking whether to use NLS... no
+checking whether NLS is requested... no
+checking for msgfmt... (cached) no
+checking for gmsgfmt... (cached) :
+checking for ld used by g++... checking for xgettext... (cached) no
+checking for msgmerge... (cached) no
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking sys/gmon_out.h usability... ld
+checking if the linker (ld) is GNU ld... no
+checking whether the g++ linker (ld) supports shared libraries... no
+checking for bison... bison -y
+checking for flex... flex
+checking for stdint.h... (cached) yes
+checking lex output file root... lex.yy
+checking whether yytext is a pointer... checking for stdio_ext.h... yes
+no
+checking sys/gmon_out.h presence... yes
+checking for process.h... no
+no
+checking for sys/gmon_out.h... no
+checking for a known getopt prototype in unistd.h... checking whether NLS is requested... no
+checking for msgfmt... no
+checking for gmsgfmt... :
+checking for xgettext... no
+no
+checking for sys/prctl.h... checking for msgmerge... no
+checking for ld used by GCC... yes
+checking for library containing fabs... ld
+checking if the linker (ld) is GNU ld... no
+checking for shared library run path origin... checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking for spawn.h... no
+checking whether NLS is requested... no
+done
+checking for msgfmt... no
+checking for gmsgfmt... :
+checking for CFPreferencesCopyAppValue... yes
+checking if g++ static flag -static works... checking for xgettext... no
+yes
+checking for sys/wait.h that is POSIX.1 compatible... checking for msgmerge... no
+checking for ld used by GCC... ld
+checking if the linker (ld) is GNU ld... no
+checking for shared library run path origin... yes
+checking whether time.h and sys/time.h may both be included... no
+checking if g++ supports -c -o file.o... no
+checking for CFLocaleCopyPreferredLanguages... done
+checking for CFPreferencesCopyAppValue... yes
+checking whether errno must be declared... -lm
+no
+checking size of int... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking for dlfcn.h... (cached) yes
+checking for windows.h... no
+checking whether to use NLS... no
+checking whether NLS is requested... no
+checking for msgfmt... (cached) no
+checking for gmsgfmt... (cached) :
+checking for xgettext... (cached) no
+no
+checking for CFLocaleCopyPreferredLanguages... checking for msgmerge... (cached) no
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for aarch64-unknown-linux-android-ranlib... (cached) true 
+checking fcntl.h usability... no
+checking for library containing dlsym... yes
+checking fcntl.h presence... 4
+checking size of long... no
+checking whether to use NLS... no
+checking whether NLS is requested... no
+checking for msgfmt... (cached) no
+checking for gmsgfmt... (cached) :
+yes
+checking for fcntl.h... yes
+checking for xgettext... (cached) no
+checking for msgmerge... (cached) no
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for inttypes.h... (cached) yes
+checking for memory.h... (cached) yes
+Setting warning flags = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow
+none required
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... checking for stdint.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking sys/file.h usability... checking for sys/types.h... (cached) yes
+configure: updating cache ./config.cache
+checking for unistd.h... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+no
+checking whether compiling a cross-assembler... no
+checking for strsignal... checking size of void *... 8
+checking size of size_t... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/time.h usability... yes
+checking for LC_MESSAGES... 8
+8
+checking for long long... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+yes
+checking for working assert macro... checking for sys/wait.h that is POSIX.1 compatible... yes
+checking size of long long... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... Setting warning flags = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow
+checking for LC_MESSAGES... yes
+checking for a known getopt prototype in unistd.h... 8
+yes
+checking for a 64-bit type... checking for getpagesize... yes
+checking whether declaration is required for environ... uint64_t
+checking for intptr_t... yes
+checking whether NLS is requested... no
+checking for msgfmt... no
+checking for gmsgfmt... :
+checking for xgettext... no
+checking for msgmerge... no
+checking for ld used by GCC... yes
+checking for working mmap... ld
+checking if the linker (ld) is GNU ld... no
+checking whether declaration is required for ffs... no
+checking for shared library run path origin... yes
+checking for uintptr_t... done
+checking for CFPreferencesCopyAppValue... no
+yes
+checking whether mempcpy is declared... checking for fseeko... no
+checking for CFLocaleCopyPreferredLanguages... yes
+checking for ssize_t... yes
+checking whether stpcpy is declared... yes
+yes
+no
+checking whether to use NLS... no
+checking whether NLS is requested... no
+checking for aarch64-unknown-linux-android-pkg-config... no
+checking for pkg-config... /data/data/com.termux/files/usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libzstd >= 1.4.0... checking for fseeko64... checking for msgfmt... (cached) no
+checking for gmsgfmt... (cached) :
+checking for xgettext... (cached) no
+yes
+checking for pid_t... checking for msgmerge... (cached) no
+checking for bison... bison -y
+checking for flex... flex
+checking lex output file root... lex.yy
+checking whether yytext is a pointer... yes
+checking for getc_unlocked... yes
+checking for struct stat.st_mtim.tv_sec in sys/stat.h... yes
+checking for library containing strerror... yes
+checking for struct stat.st_mtim.tv_nsec in sys/stat.h... yes
+yes
+no
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking how to compare bootstrapped objects... checking for mkdtemp... configure: updating cache ./config.cache
+none required
+cmp --ignore-initial=16 $$f1 $$f2
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+checking for asprintf... checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+yes
+checking elf-hints.h usability... checking for mkstemp... yes
+config.status: creating Makefile
+checking for atexit... config.status: creating po/Makefile.in
+no
+checking elf-hints.h presence... config.status: creating gconfig.h
+yes
+checking for utimensat... config.status: executing depfiles commands
+no
+checking for elf-hints.h... no
+yes
+checking limits.h usability... checking for basename... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+yes
+checking for inttypes.h... (cached) yes
+checking for utimes... yes
+checking for stdint.h... (cached) yes
+checking for bcmp... checking sys/file.h usability... config.status: executing libtool commands
+yes
+checking sys/file.h presence... yes
+config.status: executing default-1 commands
+checking for mbstate_t... yes
+checking for sys/file.h... yes
+config.status: creating po/POTFILES
+checking sys/mman.h usability... config.status: creating po/Makefile
+no
+config.status: executing default-2 commands
+checking for bcopy... yes
+checking for struct stat.st_atim.tv_nsec... config.status: creating po/POTFILES
+config.status: creating po/Makefile
+yes
+checking sys/mman.h presence... yes
+checking whether struct stat.st_atim is of type struct timespec... yes
+checking for sys/mman.h... yes
+checking sys/param.h usability... yes
+checking for library containing frexp... no
+checking for bsearch... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/time.h usability... yes
+checking for bzero... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+-lm
+checking for LC_MESSAGES... checking for close... no
+checking for calloc... yes
+checking for a known getopt prototype in unistd.h... yes
+checking for glob... yes
+checking for utime.h... yes
+checking for clock... yes
+checking whether environ is declared... yes
+checking for lseek... yes
+yes
+checking whether getc_unlocked is declared... checking for ffs... config.status: creating .gdbinit
+yes
+checking whether stpcpy is declared... config.status: creating Makefile
+yes
+checking for mkstemp... config.status: creating po/Makefile.in
+yes
+yes
+checking for getcwd... checking whether strnlen is declared... config.status: creating config.h
+config.status: executing depfiles commands
+yes
+checking for libzstd >= 1.4.0... yes
+checking for open... yes
+checking for getpagesize... (cached) yes
+checking for gettimeofday... yes
+checking for msgpack... no
+yes
+checking iconv.h usability... checking for realpath... yes
+checking iconv.h presence... yes
+checking for index... yes
+checking for iconv.h... yes
+checking for iconv... yes
+checking for waitpid... no
+checking for insque... yes
+checking whether environ is declared... yes
+yes
+yes
+checking for working iconv... checking for memchr... checking whether stpcpy is declared... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking how to link with libiconv... -liconv
+checking whether iconv is compatible with its POSIX signature... yes
+checking for memcmp... yes
+configure: updating cache ./config.cache
+yes
+checking for working mmap... checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: executing libtool commands
+yes
+checking for memcpy... config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default-2 commands
+yes
+checking for library containing dlopen... config.status: creating po/POTFILES
+config.status: creating po/Makefile
+yes
+config.status: executing default commands
+checking for memmem... none required
+checking for a known getopt prototype in unistd.h... yes
+yes
+checking whether to use xxhash... checking for memmove... yes
+checking for libzstd >= 1.4.0... yes
+checking for mempcpy... yes
+yes
+checking for memset... configure: updating cache ./config.cache
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+yes
+checking for mkstemps... yes
+checking for putenv... yes
+checking for random... yes
+checking for rename... config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+yes
+checking for rindex... config.status: executing depfiles commands
+no
+checking for setenv... yes
+checking for snprintf... config.status: executing libtool commands
+yes
+checking for sigsetmask... config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default-2 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+yes
+checking for stpcpy... yes
+checking for stpncpy... yes
+checking for strcasecmp... yes
+checking for strchr... config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+yes
+checking for strdup... yes
+checking for strncasecmp... yes
+checking for strndup... yes
+checking for strnlen... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtod... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for strtoll... yes
+checking for strtoull... yes
+checking for strverscmp... config.status: executing libtool commands
+config.status: executing default-1 commands
+no
+checking for tmpnam... config.status: executing default-2 commands
+config.status: executing default commands
+yes
+checking for vasprintf... yes
+checking for vfprintf... yes
+checking for vprintf... yes
+checking for vsnprintf... yes
+checking for vsprintf... yes
+checking for waitpid... yes
+checking for setproctitle... no
+checking whether alloca needs Cray hooks... no
+checking stack direction for C alloca... -1
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for _doprnt... no
+checking for sys_errlist... no
+checking for sys_nerr... no
+checking for sys_siglist... yes
+checking for external symbol _system_configuration... no
+checking for __fsetlocking... yes
+checking for canonicalize_file_name... no
+checking for dup3... yes
+checking for getrlimit... yes
+checking for getrusage... yes
+checking for getsysinfo... no
+checking for gettimeofday... (cached) yes
+checking for on_exit... no
+checking for pipe2... yes
+checking for posix_spawn... yes
+checking for posix_spawnp... yes
+checking for psignal... yes
+checking for pstat_getdynamic... no
+checking for pstat_getstatic... no
+checking for realpath... yes
+checking for setrlimit... yes
+checking for spawnve... no
+checking for spawnvpe... no
+checking for strerror... yes
+checking for strsignal... yes
+checking for sysconf... yes
+checking for sysctl... no
+checking for sysmp... no
+checking for table... no
+checking for times... yes
+checking for wait3... no
+checking for wait4... yes
+checking for sbrk... yes
+checking whether basename is declared... yes
+checking whether ffs is declared... yes
+checking whether asprintf is declared... yes
+checking whether vasprintf is declared... yes
+checking whether snprintf is declared... yes
+checking whether vsnprintf is declared... yes
+checking whether calloc is declared... yes
+checking whether getenv is declared... yes
+checking whether getopt is declared... yes
+checking whether malloc is declared... yes
+checking whether realloc is declared... yes
+checking whether sbrk is declared... yes
+checking whether strtol is declared... yes
+checking whether strtoul is declared... yes
+checking whether strtoll is declared... yes
+checking whether strtoull is declared... yes
+checking whether strverscmp is declared... no
+checking whether strnlen is declared... yes
+checking whether canonicalize_file_name must be declared... yes
+checking for SHA1 HW acceleration support... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... (cached) yes
+checking for working mmap... yes
+checking for working strncmp... yes
+configure: updating cache ./config.cache
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating testsuite/Makefile
+config.status: creating config.h
+config.status: executing default commands
+make[1]: Leaving directory '/data/data/com.termux/files/home/.termux-build/binutils-libs/host-build'
+make: *** [Makefile:1028: all] Error 2
